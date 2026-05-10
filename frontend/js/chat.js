@@ -33,7 +33,7 @@ async function sendMessage() {
     chatBox.scrollTop = chatBox.scrollHeight;
 
     try {
-        const response = await fetch("https://vvit-chabot.onrender.com", {
+        const response = await fetch("https://vvit-chabot.onrender.com/chat", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
