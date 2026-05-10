@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VVIT Chatbot - Student</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="chat-page">
+    <div class="page-wrapper">
+        <div class="floating-bubble">Smart answers, fast.</div>
+        <div class="chat-card">
+            <div class="chat-card-header">
+                <div class="logo">
+                    <span class="logo-mark">V</span>
+                    <div>
+                        <strong>VVIT AI</strong>
+                        <small>Campus Assistant</small>
+                    </div>
+                </div>
+                <a class="back-button" href="index.html">← Home</a>
+            </div>
+
+            <div class="chat-title">
+                <h1>Student Chat</h1>
+                <p>Ask about academics, exams, placements, and campus life.</p>
+            </div>
+
+            <div id="chat-box" class="chat-box"></div>
+
+            <div class="chat-input-row">
+                <input type="text" id="user-input" placeholder="Ask something...">
+                <button onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script>window.userRole = "Student";</script>
+    <script src="js/chat.js"></script>
+</body>
+</html>

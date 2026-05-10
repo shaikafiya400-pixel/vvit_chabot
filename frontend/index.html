@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WELCOME VVIT</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ================= HERO SECTION ================= -->
+<section class="home">
+    <div class="overlay">
+        <h1>WELCOME TO VVIT</h1>
+        <p>Your Intelligent Campus Assistant</p>
+
+        <div class="buttons">
+            <a href="student.html" class="role-card">
+                <h3>Student</h3>
+                <p>Academics, exams, placements</p>
+            </a>
+
+            <a href="faculty.html" class="role-card">
+                <h3>Faculty</h3>
+                <p>Schedules & departments</p>
+            </a>
+
+            <a href="parents.html" class="role-card">
+                <h3>Parents</h3>
+                <p>Fees, safety, results</p>
+            </a>
+
+            <a href="visitor.html" class="role-card">
+                <h3>Visitor</h3>
+                <p>Admissions & campus info</p>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- ================= WHY SECTION ================= -->
+<section class="why-section">
+    <h2>Why Choose VVIT Chat Bot?</h2>
+
+    <div class="benefits">
+        <div class="benefit-card">
+            <h4>24/7 Instant Support</h4>
+            <p>Get answers anytime without waiting.</p>
+        </div>
+
+        <div class="benefit-card">
+            <h4>Accurate College Info</h4>
+            <p>Official and reliable VVIT information.</p>
+        </div>
+
+        <div class="benefit-card">
+            <h4>Role-Based Assistance</h4>
+            <p>Student, Faculty, Parents & Visitors support.</p>
+        </div>
+
+        <div class="benefit-card">
+            <h4>AI Powered</h4>
+            <p>Smart answers using AI + FAQs.</p>
+        </div>
+
+        <div class="benefit-card">
+            <h4>Secure & Easy</h4>
+            <p>No login required, simple to use.</p>
+        </div>
+    </div>
+</section>
+<!-- ================= CHATBOT SECTION ================= -->
+
+<section class="chat-section">
+
+    <h2>Ask VVIT Chatbot</h2>
+
+    <div id="chat-box"></div>
+
+    <input type="text" id="user-input" placeholder="Ask something...">
+
+    <button onclick="sendMessage()">
+        Send
+    </button>
+
+</section>
+
+<!-- CONNECT JS -->
+<script src="js/chat.js"></script>
+</body>
+</html>
